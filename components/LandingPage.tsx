@@ -134,8 +134,8 @@ export default function LandingPage() {
   return (
     <>
       <LandingPrimaryVideoCtaSection
-        title="Beautiful Garden Designs in Minutes"
-        description="AI-powered garden design and landscaping. Tailored for your region. No design skills required."
+        title="Create a Job-Winning Resume with AI"
+        description="AI Resume Builder – Get Your Perfect Resume in Minutes!"
         autoPlay
         controls={false}
         textPosition="center"
@@ -151,7 +151,7 @@ export default function LandingPage() {
       >
         <div className="w-full mt-6 flex flex-col justify-center gap-4">
           <Button size="xl" className="p-7 text-xl" variant="secondary" asChild>
-            <a href="#">Try Gnomie for free</a>
+            <a href="#">Try for free</a>
           </Button>
           <p className="text-sm opacity-50">No credit card required</p>
         </div>

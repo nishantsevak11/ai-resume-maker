@@ -42,8 +42,11 @@ export default function Chatbot() {
     setUserInput("")
     setIsLoading(true)
 
+
+
     try {
-      const genAI = new GoogleGenerativeAI(process.env.GEMENI_API_KEY)
+      console.log(process.env.GEMENI_API_KEY)
+      const genAI = new GoogleGenerativeAI("AIzaSyDc5kYbE8cgth783xVH1Zgllb74hILa2i8")
       const model = genAI.getGenerativeModel({ model: "gemini-pro" })
 
       const prompt = `You are a friendly and helpful resume expert. You are talking to a user who is building their resume. Your goal is to help them create a professional and effective resume by gathering information from them through a natural, conversational dialogue. Focus on having a real conversation, not just extracting data. Ask relevant questions one at a time, and be responsive to the user's answers. Remember *all* information the user has provided and do *not* ask for the same information repeatedly. Only update the resume data when the user provides *new* information. Do not make assumptions.

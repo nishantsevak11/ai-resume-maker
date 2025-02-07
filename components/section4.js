@@ -45,8 +45,8 @@ export default function Section4() {
   return (
     <LandingTestimonialReadMoreWrapper size="md">
       <LandingTestimonialGrid
-        title="Gardeners Love Gnomie"
-        description="See what our community of 120k gardeners have to say about Gnomie."
+        title="Users Love AI"
+        description="See what our community of have to say about Gnomie."
         testimonialItems={testimonialItems}
       />
     </LandingTestimonialReadMoreWrapper>

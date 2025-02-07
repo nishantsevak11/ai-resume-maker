@@ -15,9 +15,9 @@ export default function Section3() {
       titleComponent: React.createElement(
         'h2',
         { className: 'text-5xl font-semibold leading-tight' },
-        'Superb garden designs.',
+        'Why Choose Our ',
         React.createElement('br', null),
-        'Created in minutes.'
+        'AI Resume Builder?'
       ),
       descriptionComponent: React.createElement(
         'div',
@@ -25,12 +25,12 @@ export default function Section3() {
         React.createElement(
           'p',
           { className: 'mt-4 md:text-xl' },
-          'Gnomie is an intuitive garden design tool that makes your outdoor space look beautiful.'
+          'ATS-friendly resume in just a few minutes. No design skills required—just answer a few questions, and we’ll generate the perfect resume for you!'
         ),
         React.createElement(
           'p',
           { className: 'mt-4 md:text-xl opacity-50' },
-          'It automatically suggests plants, flowers, and landscaping features based on your region\'s climate and soil conditions.'
+          'It automatically suggests Content, flowers, based on your data\'s which help you.'
         )
       ),
       defaultValue: 'feature-1',
@@ -44,12 +44,12 @@ export default function Section3() {
         React.createElement(
           'p',
           { className: 'text-xl font-bold' },
-          'Automatic plant suggestions'
+          ' AI-Powered Resume Generation'
         ),
         React.createElement(
           'p',
           null,
-          'Make your garden redesigns easier to execute while ensuring all plants thrive in your environment.'
+          'Our advanced AI analyzes your input and generates a professional, well-structured resume tailored to your industry. '
         )
       ),
       React.createElement(
@@ -58,12 +58,12 @@ export default function Section3() {
         React.createElement(
           'p',
           { className: 'text-xl font-bold' },
-          'Region-specific recommendations'
+          'Optimized for ATS & Hiring Managers '
         ),
         React.createElement(
           'p',
           null,
-          'Gnomie automatically recommends plants and features that are perfect for your local climate.'
+          'Most companies use Applicant Tracking Systems (ATS) to filter resumes before they even reach hiring managers. '
         )
       ),
       React.createElement(
@@ -72,12 +72,12 @@ export default function Section3() {
         React.createElement(
           'p',
           { className: 'text-xl font-bold' },
-          'Manual customization'
+          ' Customizable & Easy to Use'
         ),
         React.createElement(
           'p',
           null,
-          'You can also manually include/exclude specific plants and features.'
+          ' Unlike generic templates, our AI lets you edit sections, rearrange content, and add new skills or experiences with a simple, user-friendly interface. '
         )
       ),
       React.createElement(

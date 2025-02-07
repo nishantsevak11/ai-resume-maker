@@ -8,83 +8,78 @@ import { FacebookIcon, InstagramIcon, LinkedinIcon } from 'lucide-react';
 
 const exampleItems = [
   {
-    imageSrc: 'https://picsum.photos/id/206/800/800',
+    imageSrc: '/r1.jpg',
     name: 'Amy Lawrence',
     location: 'Atlanta, GA',
     socials: [InstagramIcon, FacebookIcon],
   },
   {
-    imageSrc: 'https://picsum.photos/id/33/800/800',
+    imageSrc: '/r2.png',
     name: 'Jane Doe',
     location: 'Los Angeles, CA',
     socials: [LinkedinIcon],
   },
   {
-    imageSrc: 'https://picsum.photos/id/59/800/800',
+    imageSrc: '/r3.png',
     name: 'Alice Doe',
     location: 'Chicago, IL',
     socials: [InstagramIcon, LinkedinIcon],
   },
   {
-    imageSrc: 'https://picsum.photos/id/71/800/800',
-    name: 'Alex Woltman',
-    location: 'San Francisco, CA',
-    socials: [FacebookIcon],
+    imageSrc: '/r1.jpg',
+    name: 'Amy Lawrence',
+    location: 'Atlanta, GA',
+    socials: [InstagramIcon, FacebookIcon],
   },
   {
-    imageSrc: 'https://picsum.photos/id/89/800/800',
-    name: 'John Smith',
-    location: 'Seattle, WA',
+    imageSrc: '/r2.png',
+    name: 'Jane Doe',
+    location: 'Los Angeles, CA',
+    socials: [LinkedinIcon],
+  },
+  {
+    imageSrc: '/r3.png',
+    name: 'Alice Doe',
+    location: 'Chicago, IL',
     socials: [InstagramIcon, LinkedinIcon],
   },
   {
-    imageSrc: 'https://picsum.photos/id/95/800/800',
-    name: 'Jane Smith',
-    location: 'Portland, OR',
-    socials: [FacebookIcon],
-  },
-  {
-    imageSrc: 'https://picsum.photos/id/98/800/800',
-    name: 'Alice Smith',
-    location: 'Denver, CO',
-    socials: [LinkedinIcon],
-  },
-  {
-    imageSrc: 'https://picsum.photos/id/106/800/800',
-    name: 'Alex Doe',
-    location: 'Austin, TX',
-    socials: [InstagramIcon],
-  },
-  {
-    imageSrc: 'https://picsum.photos/id/110/800/800',
-    name: 'John Woltman',
-    location: 'Houston, TX',
-    socials: [FacebookIcon, LinkedinIcon],
-  },
-  {
-    imageSrc: 'https://picsum.photos/id/112/800/800',
-    name: 'Brian King',
-    location: 'Miami, FL',
-    socials: [InstagramIcon, FacebookIcon, LinkedinIcon],
-  },
-  {
-    imageSrc: 'https://picsum.photos/id/253/800/800',
-    name: 'Chris Johnson',
-    location: 'Boston, MA',
-    socials: [LinkedinIcon],
-  },
-  {
-    imageSrc: 'https://picsum.photos/id/701/800/800',
-    name: 'Sarah Miller',
-    location: 'Philadelphia, PA',
+    imageSrc: '/r1.jpg',
+    name: 'Amy Lawrence',
+    location: 'Atlanta, GA',
     socials: [InstagramIcon, FacebookIcon],
   },
   {
-    imageSrc: 'https://picsum.photos/id/15/800/800',
-    name: 'John Doe',
-    location: 'New York, NY',
+    imageSrc: '/r2.png',
+    name: 'Jane Doe',
+    location: 'Los Angeles, CA',
+    socials: [LinkedinIcon],
+  },
+  {
+    imageSrc: '/r3.png',
+    name: 'Alice Doe',
+    location: 'Chicago, IL',
+    socials: [InstagramIcon, LinkedinIcon],
+  },
+  {
+    imageSrc: '/r1.jpg',
+    name: 'Amy Lawrence',
+    location: 'Atlanta, GA',
     socials: [InstagramIcon, FacebookIcon],
   },
+  {
+    imageSrc: '/r2.png',
+    name: 'Jane Doe',
+    location: 'Los Angeles, CA',
+    socials: [LinkedinIcon],
+  },
+  {
+    imageSrc: '/r3.png',
+    name: 'Alice Doe',
+    location: 'Chicago, IL',
+    socials: [InstagramIcon, LinkedinIcon],
+  },
+  
 ];
 
 function Section2() {
@@ -92,10 +87,10 @@ function Section2() {
     <>
       <div className="flex flex-col items-center p-4 mt-12">
         <h2 className="text-5xl font-semibold leading-tight text-center">
-          Made with Gnomie
+          Made with Ai
         </h2>
         <p className="mt-4 md:text-xl max-w-xl text-center">
-          Thousands of people use Gnomie to reimagine their outdoor spaces, adding plants, flowers, and landscaping elements suited to their specific climate.
+        Our AI-powered resume assistant helps you build a professional, ATS-friendly resume in just a few minutes. No design skills required—just answer a few questions, and we’ll generate the perfect resume for you!
         </p>
       </div>
 
