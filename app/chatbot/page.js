@@ -3,7 +3,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='flex gap-10'>
+    <div className=''>
 
       <Chatbot/>
      
